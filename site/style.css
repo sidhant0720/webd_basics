@@ -1,0 +1,111 @@
+body{
+    background-color: lightcyan;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 125%;
+
+}
+
+a.nav{
+    font-size: 2em;
+    text-decoration: none;
+    margin-right: 100px;
+}
+
+a.nav:link,a.nav:visited{
+    background-color: lightsalmon;
+
+}
+
+a.nav:active,a.nav:hover{
+    background-color: salmon;
+}
+
+ul.links{
+    list-style: none;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+li>a,#back_to_top{
+    background-color: tomato;
+    color: white;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+h1{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    background-color: sandybrown;
+    font-size: 2em;
+    color: whitesmoke;
+    padding-top: 20px;
+
+}
+
+
+
+
+
+#name{
+    background-color: sandybrown;
+    font-size: 3em;
+    color: whitesmoke;
+    height: 100px;
+    padding-top: 20px;
+
+}
+
+h2{
+    text-align: center;
+}
+
+h3{
+    background-color: teal;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* a{
+    font-size: 30px;
+    margin-right: 100px;
+    font-family: monospace;
+}
+a:link, a:visited {
+    text-decoration: none;
+    background-color: lightskyblue;
+    text-align: center;
+    width: 300px;
+}
+a:active,a:hover{
+    background-color: rgb(25, 118, 155);
+}
+h1{
+    text-align: center;
+    color: coral;
+}
+h2{
+    text-align: center;
+    color: darkcyan;
+}
+.red{
+    color: red;
+}
+#name{
+    font-family:fantasy;
+    font-size: 70px; */

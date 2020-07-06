@@ -2,43 +2,58 @@ body{
     background-color: lightcyan;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 125%;
+    background-image: url('bg.jpg');
+    padding: 50px;
 
+}
+*{
+    box-sizing: border-box;
 }
 
 a.nav{
     font-size: 2em;
     text-decoration: none;
-    margin-right: 100px;
+    margin-right: 200px;
+    color: white;
+
 }
 
 a.nav:link,a.nav:visited{
-    background-color: lightsalmon;
+    
 
 }
 
 a.nav:active,a.nav:hover{
-    background-color: salmon;
+    background-color:black;
 }
 
 ul.links{
     list-style: none;
     margin-bottom: 5px;
     text-align: center;
+    height: 200px;
 }
 
 li>a,#back_to_top{
-    background-color: tomato;
+    background-color: rgb(63, 31, 31); 
     color: white;
     text-align: center;
+    padding: 5px;
+    
 }
 
 a{
     text-decoration: none;
+    margin-top: 10px;
+    
 }
 
-
-h1{
+#header{
+    background-color: rgb(63, 31, 31); 
+    padding:25px;
     text-align: center;
+
+    
 }
 
 h1{
@@ -47,7 +62,9 @@ h1{
     font-size: 2em;
     color: whitesmoke;
     padding-top: 20px;
-
+}
+p{
+    color: white;
 }
 
 
@@ -65,15 +82,43 @@ h1{
 
 h2{
     text-align: center;
+    font-size: 1.5em;
+
 }
 
 h3{
-    background-color: teal;
+    background-color:rgb(39, 8, 8);
+    color: white;
+    padding: 10px;
+    
 }
 
+#dp_image{
+    margin: 40px;
+    margin-left: 100px;
+    size: 150%;
+    /* position: relative;
+    top: 50px;
+    left: 50px; */
+}
+#content_text{
+    width: 60%;
+    float: right;
+    background-color: rgba(222, 184, 135, 0.425) ;
+    padding: 40px;
+}
+#content{
+    position: relative;
+    
+}
 
+#hobby_div{
+    background-color: rgba(0, 0, 0, 0.452);
+}
 
-
+#hobby_div li,#hobby_div div{
+    color: white;
+}
 
 
 

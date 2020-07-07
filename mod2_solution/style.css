@@ -1,0 +1,42 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+*{
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+}
+#d1,#d2,#d3{
+    background-color: blueviolet;
+    border:solid black 1px;
+    padding: 15px;
+    /* margin: 10px; */
+}
+h2{
+    background-color: burlywood;
+    width: 150px;
+}
+p{
+    background-color: aquamarine;
+    
+}
+
+
+/* Media Querries  */
+
+@media (min-width:1200px){
+    .col-lg-4{
+        float: left;
+        width: 33.33%;
+    }
+}
+
+
+@media (min-width:992px) and (max-width:1198){
+    .col-md-6{
+        float: left;
+        width: 50%;
+    }
+}

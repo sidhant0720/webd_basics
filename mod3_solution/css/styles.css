@@ -1,0 +1,75 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Navbar */
+.navbar-default .navbar-brand{
+    font-size: 3em;
+    font-weight: bold;
+    color: brown;
+    font-family: 'Bebas Neue', cursive;
+}
+.navbar {
+
+}
+.navbar-header{
+    vertical-align: middle;
+    margin: 10px;
+}
+li > a{
+    font-size: 1.5em;
+    text-align: center;
+    vertical-align: middle;
+}
+ul.nav{
+    float: right;
+}
+ul li{
+    vertical-align: middle;
+}
+.nav .navbar-nav {
+    margin: auto;
+}
+ul.nav {
+    float: right;
+}
+
+ul.nav[aria-expanded="true"]{
+    float: inherit;
+  }
+
+div.navbar-collapse[aria-expanded="true"]{
+    
+}
+@media[aria-expanded="true"]{
+    ul.nav {
+        float: right;
+    }
+}
+
+/* Navbar end*/
+
+
+/* Content Box */
+#content-text h1{
+    font-family: 'Bebas Neue',cursive;
+    font-size: 4em;
+    }
+    #content-text p{
+        padding: 70px;
+        color: white;
+        font-size: 1.5em;
+        font-family: 'Roboto', sans-serif;
+    }
+    #content-text h2{
+        color: white;
+        font-size: 3em;
+        font-family: 'Bebas Neue',cursive;
+    
+    }
+    #content-text-div{
+        background-color: rgb(88, 11, 11);
+        border: solid black 1px;
+    }
+
+/* Content Box end*/
